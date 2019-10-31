@@ -10,6 +10,3 @@ output:
 This is a website about Isabella Fu. Isabella Fu is currently a student at Columbia University School of PUblic Health, majoring Biostatistics. If you want to learn more [About Me](about.html), you can find lots of interesting information on this website: ie.  resume, album, attended and attending events, reading list, ect. 
 
 
-Here is my resume: 
-
-![](image/resume Isabella.jpg)
