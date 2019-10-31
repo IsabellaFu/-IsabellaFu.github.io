@@ -9,6 +9,8 @@ navbar:
       href: mailto:<jf3286@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/<IsabellaFu>/
+    - text: "felxadashboard"
+      href: flexdashboard::flex_dashboard
 output:
   html_document:
     theme: journal
