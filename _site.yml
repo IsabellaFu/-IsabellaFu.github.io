@@ -1,8 +1,8 @@
 name: "Isabella's Website"
 output_dir: "."
 navbar:
-  title: "Isabella's Website"
-  left:
+  title: "Home"
+  right:
     - text: "Home"
       href: index.html
     - text: "About Me"
