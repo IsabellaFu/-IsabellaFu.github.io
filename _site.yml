@@ -1,9 +1,11 @@
-name: "My academic background"
+name: "Isabella's Website"
 output_dir: "."
 navbar:
-  title: "My academic background"
-  right:
-    - text: "About"
+  title: "Isabella's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
       href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<jf3286@cumc.columbia.edu>
