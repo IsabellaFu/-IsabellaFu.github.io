@@ -19,39 +19,65 @@ library(plotly)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A: scatterplot for ...
+### Chart A: Minimum and maximum daily temperature in three NOAA stations in New York of 2004
 
 ```{r}
 library(dplyr)
 library(p8105.datasets)
 data("ny_noaa")
 
+nydata=  ny_noaa %>% 
+  drop_na() %>% 
+  separate(date, into = c("year", "month", "day"), convert = TRUE) %>% 
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    month = as.character(month),
+    year = as.character(year),
+    day = as.character(day)
+    ) %>% 
+  filter(
+    id %in% c("USC00304791","USC00302286","USC00303360"),
+    year == 2004
+      )
+    
 
-
-nydata =  ny_noaa %>% 
-  drop_na()
-
-# plot
-
+nydata %>%  
+  plot_ly(x = ~tmin, y = ~tmax, color = ~id,
+          type = "scatter", mode = "markers", alpha = 0.5)
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B: density....
+### Chart B: Density of temparature in three NOAA stations in New York of 2004
 
 ```{r}
+density = nydata %>%
+  select(id, tmax, tmin) %>% 
+  pivot_longer(
+    tmax:tmin,
+    names_to = "observation", 
+    values_to = "temp") %>% 
+  ggplot(aes(x = temp, fill = observation)) +
+  geom_density(alpha = .5)+
+  facet_grid(~id) + 
+  viridis::scale_fill_viridis(discrete = TRUE)
 
+ggplotly(density)
 ```
 
-### Chart C: bar...
+### Chart C: Barchart of temparature in three NOAA stations in New York of 2004 
 
 ```{r}
+violin = nydata %>%
+  ggplot(aes(x = id, y = tmax)) + 
+  geom_violin(aes(fill = id), color = "blue", alpha = .5) + 
+  theme(legend.position = "bottom")
 
+ggplotly(violin)
 ```
 
 
-```{r}
 
-```
 

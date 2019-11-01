@@ -7,7 +7,22 @@ output:
     theme: cerulean
 ---
 
-
+## Resume
 Here is my resume: 
 
 ![](image/resume Isabella.jpg)
+
+
+
+## Let's take a quick look at Isabella's favorite websites
+
+I am a huge fan of travle, so I found a lot of useful traveling websites. 
+This is a very professional recommendation about useful travel websites  published by [CNN](nn.com/travel/article/useful-travel-websites-bt/index.html). If you are more familiar with Forbes, you can go to [this website](https://www.forbes.com/), which lists out top travling websites in the world. 
+
+
+## Now I wanna share my reading list with you 
+I am also a **regular**  reader, and I found a lot of interesting readling list. Here I would like to booklist in my three favorite reading catagories:
+
+[1. General personal develepment](https://dariusforoux.com/reading-list/#1)
+[2. Decision making](https://dariusforoux.com/reading-list/#2)
+[3. Helath and fitness](https://dariusforoux.com/reading-list/#3)

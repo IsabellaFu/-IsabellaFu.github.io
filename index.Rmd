@@ -7,8 +7,38 @@ output:
     theme: cerulean
 ---
 ## Welcome to my website
-This is a website about Isabella Fu. Isabella Fu is currently a student at Columbia University School of PUblic Health, majoring Biostatistics. If you want to learn more [About Me](about.html), you can find lots of interesting information on this website: ie.  resume, album, attended and attending events, reading list, ect. 
 
-## Let's take a quick look at Isabella's interests
+This is a website about Isabella Fu. Isabella Fu is currently a student at Columbia University School of PUblic Health, majoring Biostatistics. If you want to learn more [About Me](about.html), you can find lots of interesting information on this website: ie.  resume, hobbits, reading list, ect. 
 
-##  What's more...
+## Education background
+# High school
+
+ This is my High school
+ 
+ ![](image/high school.jpg)
+ 
+# Undergraduate school
+ 
+ This is my undergraduate school
+ 
+ ![](image/undergraduate.jpg)
+ 
+# graduate school 
+ 
+ This is my graduate school
+ 
+ ![](image/graduate.jpg)
+ 
+## Homwtown
+
+My hometown is Shanghai, a very breautiful city in China. In Shanghai we have amazing food:
+
+![](image/food.jpg)
+
+We also have fantastic views:
+
+![](image/view.jpg)
+
+
+
+
