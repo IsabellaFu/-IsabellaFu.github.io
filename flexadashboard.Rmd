@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Flexadashboard for three stations of NOAA in New York of year 2004"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
